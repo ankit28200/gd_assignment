@@ -1,0 +1,91 @@
+.employee-content {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.employee-call {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.page-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-form {
+    width: 80vw;
+    height: 6vh;
+    margin-top: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.search-form-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    background: #5E5E5E82 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 4px 0px #00000040;
+    mix-blend-mode: normal;
+    border: 1px solid #595959;
+    opacity: 0.4;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.search-input {
+    border: none;
+    background: none;
+    font-weight: bolder;
+    font-size: 16px;
+    letter-spacing: 0.02px;
+    color: #FFFFFFB3;
+    overflow-x: auto;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-button {
+    position: absolute;
+    right: 0;
+    color: white;
+    padding-right: 15%;
+}
+
+.employees-list {
+    margin: 8% 5% 30% 5%;
+}
+
+.employee {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8%;
+}
+
+.odd {
+    justify-content: flex-start;
+}
+
+.even {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+input {
+  font-family: 'Mulish', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.employee-call {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  height: 60px;
+  width: 60px;
+}
+
+.notifs-section {
+  position: absolute;
+  top: 15%;
+}
+
+.notif-moptro {
+  height: 80px;
+  width: 80px;
+}
+
+.notif-badge {
+  position: absolute;
+  bottom: 70px;
+  left: 70px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.notif-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  filter: blur(3px);
+  border-radius: 50%;
+  background: #5E5E5EB5 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 4px 0px #00000040;
+  mix-blend-mode: normal;
+  border: 1px solid #FFFEFE00;
+  z-index: -1;
+}
+
+.notif-number {
+  text-align: center;
+  font-family: 'Source Sans 3', sans-serif;
+  color: #36A546;
+}
+
+.resized-lg {
+  height: 28px;
+  width: 28px;
+}
+
+.resized-md {
+  height: 25px;
+  width: 25px;
+}

@@ -1,0 +1,77 @@
+.login-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.logo-text {
+    color: #36A546CC;
+    text-align: center;
+    letter-spacing: 0.02px;
+    border-width: 1px;
+    border-color: black;
+}
+
+.fields-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.login-field {
+    width: 238px;
+    height: 42px;
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    mix-blend-mode: normal;
+    border-radius: 30px;
+    color: gray;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.login-button {
+    width: 238px;
+    height: 42px;
+    background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 2px solid #8CFF0026;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.login-button-text {
+    text-align: center;
+    font: normal normal bold 16px/21px Mulish;
+    letter-spacing: 0.02px;
+    color: #FFFFFF8C;
+}
+
+.login-error {
+    color: #a53636;
+}
+
+.forgot-password {
+    color: #36A546CC;
+}
